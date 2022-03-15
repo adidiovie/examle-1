@@ -1,0 +1,98 @@
+body{
+margin: 10px;
+background-color: rgb(59, 59, 59);
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(41, 51, 54);
+  color: white;
+  margin-bottom: 10px;
+}
+.guns>img{
+  margin-left: 11px; 
+  margin-top: 20px;
+}
+.guns>img:hover{
+height: 380px;
+width: 380px;
+transition-duration: 1s;
+}
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: rgb(105, 113, 116);
+}
+
+.about-body{
+  text-align: center;
+  display: flex;
+  background-color: rgb(81, 92, 92);
+  color: aliceblue;
+  border: 2px solid white;
+  margin: 0px;
+  padding: 0%;
+}
+.about-pic{
+ margin-left: 250px;
+ border: 2px solid rgb(235, 241, 146);
+ border-radius: 17%;
+ margin-top: 10px;
+ background-color: rgb(83, 83, 83);
+}
+.about-write-up{
+  margin-left: 10px;
+  margin-top: 50px;
+  font-size: larger;
+  text-decoration: wavy;
+}
+.form-page{
+  color: white;
+  margin: 10px;
+}
+form{
+  text-align: center;
+  font: xx-large;
+  letter-spacing: 5px;
+  border: 2px solid white;
+  max-width: 300px;
+  min-height: 400px;
+  margin-left: 500px;
+  background-color: rgb(41, 51, 54);
+}
+.top-page{
+  display: flex;
+  justify-content: space-between;
+}
+.burger{
+  text-align: center;
+  margin-top: 30px;
+}
+.about-pic>img{
+  border-radius: 15%;
+}
+button{
+  background-color:  rgb(94, 116, 122);
+  color: aliceblue;
+  border-style: none;
+  width: 240px;
+  height: 30px; 
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ button:hover{
+  background-color: aliceblue;
+  color: rgb(94, 116, 122);
+  font-size: x-large ;
+  transition-duration: 1s;
+}
+li{
+  color: white;
+}
